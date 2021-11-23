@@ -1,10 +1,8 @@
-package com.in28minutes.rest.basicAuth.controller;
+package com.in28minutes.rest.basicAuth;
 
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
-
-import com.in28minutes.basicAuth.entity.AuthenticationBean;
 
 
 @CrossOrigin(origins="http://localhost:4200")

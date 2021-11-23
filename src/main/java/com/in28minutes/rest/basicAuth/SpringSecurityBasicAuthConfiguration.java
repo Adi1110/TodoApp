@@ -1,4 +1,4 @@
-package com.in28minutes.rest.basic.auth.config;
+package com.in28minutes.rest.basicAuth;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpMethod;

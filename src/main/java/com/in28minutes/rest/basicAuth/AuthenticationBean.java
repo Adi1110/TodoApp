@@ -1,4 +1,4 @@
-package com.in28minutes.basicAuth.entity;
+package com.in28minutes.rest.basicAuth;
 
 public class AuthenticationBean {
 
