@@ -6,7 +6,6 @@ import java.io.Serializable;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import org.springframework.context.annotation.Scope;
 import org.springframework.security.core.AuthenticationException;
 import org.springframework.security.web.AuthenticationEntryPoint;
 import org.springframework.stereotype.Component;
@@ -23,5 +22,3 @@ public class JwtUnAuthorizedResponseAuthenticationEntryPoint implements Authenti
 				"You would need to provide the Jwt Token to Access This resource");
 	}
 }
-
-

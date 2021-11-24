@@ -1,4 +1,5 @@
 package com.in28minutes.rest.webservices.restfulwebservices.jwt;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
@@ -16,10 +17,10 @@ public class JwtInMemoryUserDetailsService implements UserDetailsService {
 	static {
 		inMemoryUserList.add(new JwtUserDetails(1L, "in28minutes",
 				"$2a$10$3zHzb.Npv1hfZbLEU5qsdOju/tk2je6W6PnNnY.c1ujWPcZh4PL6e", "ROLE_USER_2"));
-		inMemoryUserList.add(new JwtUserDetails(2L, "ranga",
-				"$$2a$10$KfF4ljeSzKcA9eyppqApWOoEsk3N1A0H3rldWIXQZ5OzJ4/4FIW/2", "ROLE_USER_2"));
+		inMemoryUserList.add(new JwtUserDetails(2L, "aditya",
+				"$2a$10$dCgeh05U.DVCXF.IRZZhV.Cj/XyM5zWrhxUDxmpVlZzrVdyRTIXPG", "ROLE_USER_2"));
 		
-		//$2a$10$KfF4ljeSzKcA9eyppqApWOoEsk3N1A0H3rldWIXQZ5OzJ4/4FIW/2
+		//$2a$10$dCgeh05U.DVCXF.IRZZhV.Cj/XyM5zWrhxUDxmpVlZzrVdyRTIXPG
 	}
 
 	@Override
